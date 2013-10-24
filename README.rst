@@ -1,4 +1,4 @@
-klaus: a simple Git web viewer that Just Works™.
+klaus: a simple Git web viewer
 ================================================
 
 (If it doesn't Just Work for you, please file a bug.)
