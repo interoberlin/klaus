@@ -28,6 +28,8 @@
   <div class=diff>
     {% for file in repo.commit_diff(commit) %}
 
+    <div class=changed>
+
       {% set fileno = loop.index0 %}
 
       <div class=filename>
@@ -97,6 +99,8 @@
       {% else %}
         <div class=binarydiff>Binary diff not shown</div>
       {% endif %}
+
+    </div>
 
     {% endfor %}
   </div>
